@@ -1,0 +1,254 @@
+{
+  "users": {
+    "customer": {
+      "id": "cust-001",
+      "email": "customer@kalaghar.demo",
+      "password": "Demo1234!",
+      "name": "Priya Sharma",
+      "phone": "+91 98765 43210",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop",
+      "address": {
+        "line1": "42, Shanti Nagar",
+        "line2": "Near City Mall",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400001"
+      }
+    },
+    "artist": {
+      "id": "art-001",
+      "email": "artist@kalaghar.demo",
+      "password": "Artist1234!",
+      "name": "Meera Devi",
+      "phone": "+91 98765 12345",
+      "role": "artist",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop",
+      "bio": "Traditional rangoli artist with 15+ years of experience. Specializing in Diwali and wedding decorations.",
+      "verified": true,
+      "rating": 4.8,
+      "totalOrders": 156,
+      "earnings": 45600,
+      "pendingPayout": 12400,
+      "languages": ["Hindi", "Marathi", "English"],
+      "location": "Mumbai, Maharashtra",
+      "sampleId": "AADHAAR-XXXX-1234"
+    }
+  },
+  "categories": [
+    {
+      "id": "rangoli",
+      "name": "Rangoli",
+      "icon": "✨",
+      "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop",
+      "count": 48
+    },
+    {
+      "id": "toran",
+      "name": "Toran",
+      "icon": "🪷",
+      "image": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=400&h=300&fit=crop",
+      "count": 32
+    },
+    {
+      "id": "festival-decor",
+      "name": "Festival Décor",
+      "icon": "🎊",
+      "image": "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=400&h=300&fit=crop",
+      "count": 56
+    },
+    {
+      "id": "pooja-kits",
+      "name": "Pooja Kits",
+      "icon": "🪔",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
+      "count": 24
+    },
+    {
+      "id": "custom-items",
+      "name": "Custom Items",
+      "icon": "🎨",
+      "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop",
+      "count": 18
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "title": "Traditional Diwali Rangoli Design",
+      "artistId": "art-001",
+      "artistName": "Meera Devi",
+      "artistAvatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop",
+      "category": "rangoli",
+      "price": 2500,
+      "rating": 4.9,
+      "reviews": 48,
+      "serviceTypes": ["home-visit", "digital"],
+      "leadTime": 2,
+      "description": "Beautiful traditional rangoli design created at your doorstep using natural colors. Perfect for Diwali celebrations, housewarming, and special occasions.",
+      "images": [
+        "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
+      ],
+      "locationRadius": 15,
+      "featured": true,
+      "addOns": [
+        { "id": "addon-1", "name": "Extra patterns", "price": 500 },
+        { "id": "addon-2", "name": "Flower decoration", "price": 800 }
+      ]
+    },
+    {
+      "id": "prod-002",
+      "title": "Handmade Marigold Toran",
+      "artistId": "art-001",
+      "artistName": "Meera Devi",
+      "artistAvatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop",
+      "category": "toran",
+      "price": 850,
+      "rating": 4.7,
+      "reviews": 32,
+      "serviceTypes": ["digital"],
+      "leadTime": 3,
+      "description": "Handcrafted toran made with fresh marigold flowers and mango leaves. Traditional design perfect for festival entrances.",
+      "images": [
+        "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
+      ],
+      "locationRadius": null,
+      "featured": true,
+      "addOns": [
+        { "id": "addon-3", "name": "Extra length (+1ft)", "price": 200 }
+      ]
+    },
+    {
+      "id": "prod-003",
+      "title": "Diwali Complete Pooja Kit",
+      "artistId": "art-002",
+      "artistName": "Radha Kumari",
+      "artistAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop",
+      "category": "pooja-kits",
+      "price": 1200,
+      "rating": 4.8,
+      "reviews": 67,
+      "serviceTypes": ["digital"],
+      "leadTime": 2,
+      "description": "Complete Diwali pooja kit with all essential items - diyas, incense, roli, rice, and decorated thali.",
+      "images": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=600&fit=crop"
+      ],
+      "locationRadius": null,
+      "featured": true,
+      "addOns": []
+    },
+    {
+      "id": "prod-004",
+      "title": "Wedding Entrance Decoration",
+      "artistId": "art-001",
+      "artistName": "Meera Devi",
+      "artistAvatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop",
+      "category": "festival-decor",
+      "price": 5500,
+      "rating": 5.0,
+      "reviews": 23,
+      "serviceTypes": ["home-visit"],
+      "leadTime": 5,
+      "description": "Complete wedding entrance decoration including floral arrangements, torans, and rangoli. Transform your venue into a festive paradise.",
+      "images": [
+        "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop"
+      ],
+      "locationRadius": 25,
+      "featured": false,
+      "addOns": [
+        { "id": "addon-4", "name": "LED lights", "price": 1500 },
+        { "id": "addon-5", "name": "Photo booth corner", "price": 2000 }
+      ]
+    },
+    {
+      "id": "prod-005",
+      "title": "Custom Name Rangoli",
+      "artistId": "art-001",
+      "artistName": "Meera Devi",
+      "artistAvatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop",
+      "category": "custom-items",
+      "price": 3500,
+      "rating": 4.9,
+      "reviews": 15,
+      "serviceTypes": ["home-visit", "digital"],
+      "leadTime": 4,
+      "description": "Personalized rangoli design with your name or message. Perfect for birthdays, anniversaries, and corporate events.",
+      "images": [
+        "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop"
+      ],
+      "locationRadius": 20,
+      "featured": false,
+      "addOns": [
+        { "id": "addon-6", "name": "Video recording", "price": 500 }
+      ]
+    },
+    {
+      "id": "prod-006",
+      "title": "Peacock Feather Toran",
+      "artistId": "art-002",
+      "artistName": "Radha Kumari",
+      "artistAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop",
+      "category": "toran",
+      "price": 1100,
+      "rating": 4.6,
+      "reviews": 28,
+      "serviceTypes": ["digital"],
+      "leadTime": 4,
+      "description": "Elegant peacock feather toran with beaded accents. Adds a royal touch to any entrance.",
+      "images": [
+        "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
+      ],
+      "locationRadius": null,
+      "featured": false,
+      "addOns": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2024-001",
+      "transactionId": "TXN-DEMO-1704067200",
+      "customerId": "cust-001",
+      "artistId": "art-001",
+      "productId": "prod-001",
+      "productTitle": "Traditional Diwali Rangoli Design",
+      "productImage": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop",
+      "serviceType": "home-visit",
+      "scheduledDate": "2024-11-10",
+      "scheduledTime": "10:00 AM",
+      "status": "completed",
+      "price": 2500,
+      "addOns": [{ "name": "Flower decoration", "price": 800 }],
+      "tax": 165,
+      "total": 3465,
+      "address": "42, Shanti Nagar, Near City Mall, Mumbai - 400001",
+      "createdAt": "2024-11-05T10:30:00Z"
+    },
+    {
+      "id": "ORD-2024-002",
+      "transactionId": "TXN-DEMO-1704153600",
+      "customerId": "cust-001",
+      "artistId": "art-001",
+      "productId": "prod-002",
+      "productTitle": "Handmade Marigold Toran",
+      "productImage": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+      "serviceType": "digital",
+      "scheduledDate": null,
+      "scheduledTime": null,
+      "status": "confirmed",
+      "price": 850,
+      "addOns": [],
+      "tax": 43,
+      "total": 893,
+      "address": "42, Shanti Nagar, Near City Mall, Mumbai - 400001",
+      "createdAt": "2024-11-08T14:20:00Z"
+    }
+  ]
+}
