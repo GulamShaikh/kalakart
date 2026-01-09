@@ -65,10 +65,12 @@ The app will be available at `http://localhost:8080` (or the next available port
 For testing purposes, use these credentials:
 
 **Customer Account:**
+
 - Email: `customer@kalaghar.demo`
 - Password: `Demo1234!`
 
 **Artist Account:**
+
 - Email: `artist@kalaghar.demo`
 - Password: `Artist1234!`
 
@@ -93,6 +95,7 @@ src/
 ### Update Product Catalog
 
 Edit `src/data/demo-data.json` to:
+
 - Add/remove products
 - Update prices, images, and descriptions
 - Modify categories
@@ -101,6 +104,7 @@ Edit `src/data/demo-data.json` to:
 ### Change Images
 
 Replace image URLs in `demo-data.json` with your own. You can use:
+
 - Local images in the `public/` folder
 - External CDN links (Unsplash, Cloudinary, etc.)
 - Your own hosted images
@@ -167,7 +171,8 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions or support:
-- Email: support@kalakart.com
+
+- Email: gulamshaikh2455@gmail.com
 - GitHub: [@GulamShaikh](https://github.com/GulamShaikh)
 
 ---

@@ -1,13 +1,13 @@
-import { ArrowRight, Sparkles } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { Layout } from '@/components/layout/Layout';
-import { Button } from '@/components/ui/button';
-import { CategoryCard } from '@/components/products/CategoryCard';
-import { ProductCard } from '@/components/products/ProductCard';
-import demoData from '@/data/demo-data.json';
+import { ArrowRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Layout } from "@/components/layout/Layout";
+import { Button } from "@/components/ui/button";
+import { CategoryCard } from "@/components/products/CategoryCard";
+import { ProductCard } from "@/components/products/ProductCard";
+import demoData from "@/data/demo-data.json";
 
 export default function Index() {
-  const featuredProducts = demoData.products.filter(p => p.featured);
+  const featuredProducts = demoData.products.filter((p) => p.featured);
 
   return (
     <Layout>
@@ -21,12 +21,12 @@ export default function Index() {
               <span>Celebrating Indian Artistry</span>
             </div>
             <h1 className="font-display font-extrabold text-3xl md:text-5xl lg:text-6xl leading-tight">
-              Handmade{' '}
-              <span className="text-gradient">Torans, Rangoli</span>
-              {' '}&amp; Festival Décor
+              Handmade <span className="text-gradient">Torans, Rangoli</span>{" "}
+              &amp; Festival Décor
             </h1>
             <p className="mt-4 text-muted-foreground text-base md:text-lg max-w-lg mx-auto">
-              From home artists to your home. Discover authentic handcrafted decorations for every celebration.
+              From home artists to your home. Discover authentic handcrafted
+              decorations for every celebration.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6">
               <Link to="/explore">
@@ -36,7 +36,11 @@ export default function Index() {
                 </Button>
               </Link>
               <Link to="/login">
-                <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="w-full sm:w-auto"
+                >
                   Become an Artist
                 </Button>
               </Link>
@@ -49,8 +53,13 @@ export default function Index() {
       <section className="py-6 md:py-10">
         <div className="container px-4">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="font-display font-bold text-lg md:text-xl">Browse Categories</h2>
-            <Link to="/explore" className="text-sm text-primary font-medium hover:underline">
+            <h2 className="font-display font-bold text-lg md:text-xl">
+              Browse Categories
+            </h2>
+            <Link
+              to="/explore"
+              className="text-sm text-primary font-medium hover:underline"
+            >
               View all
             </Link>
           </div>
@@ -74,10 +83,17 @@ export default function Index() {
         <div className="container px-4">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h2 className="font-display font-bold text-lg md:text-xl">Featured Creations</h2>
-              <p className="text-sm text-muted-foreground mt-0.5">Handpicked by our team</p>
+              <h2 className="font-display font-bold text-lg md:text-xl">
+                Featured Creations
+              </h2>
+              <p className="text-sm text-muted-foreground mt-0.5">
+                Handpicked by our team
+              </p>
             </div>
-            <Link to="/explore" className="text-sm text-primary font-medium hover:underline">
+            <Link
+              to="/explore"
+              className="text-sm text-primary font-medium hover:underline"
+            >
               See more
             </Link>
           </div>
@@ -92,7 +108,9 @@ export default function Index() {
                 rating={product.rating}
                 reviews={product.reviews}
                 artistName={product.artistName}
-                serviceTypes={product.serviceTypes as ('home-visit' | 'digital')[]}
+                serviceTypes={
+                  product.serviceTypes as ("home-visit" | "digital")[]
+                }
               />
             ))}
           </div>
@@ -105,14 +123,22 @@ export default function Index() {
           <div className="bg-card rounded-2xl shadow-card p-6 md:p-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               {[
-                { value: '500+', label: 'Local Artists' },
-                { value: '10K+', label: 'Happy Customers' },
-                { value: '4.8★', label: 'Average Rating' },
-                { value: '15+', label: 'Cities Served' },
+                { value: "500+", label: "Local Artists" },
+                { value: "10K+", label: "Happy Customers" },
+                { value: "4.8★", label: "Average Rating" },
+                { value: "15+", label: "Cities Served" },
               ].map((stat, i) => (
-                <div key={i} className="animate-fade-in" style={{ animationDelay: `${i * 100}ms` }}>
-                  <p className="font-display font-bold text-2xl md:text-3xl text-gradient">{stat.value}</p>
-                  <p className="text-sm text-muted-foreground mt-1">{stat.label}</p>
+                <div
+                  key={i}
+                  className="animate-fade-in"
+                  style={{ animationDelay: `${i * 100}ms` }}
+                >
+                  <p className="font-display font-bold text-2xl md:text-3xl text-gradient">
+                    {stat.value}
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    {stat.label}
+                  </p>
                 </div>
               ))}
             </div>

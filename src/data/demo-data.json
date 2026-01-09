@@ -87,7 +87,7 @@
       "leadTime": 2,
       "description": "Beautiful traditional rangoli design created at your doorstep using natural colors. Perfect for Diwali celebrations, housewarming, and special occasions.",
       "images": [
-        "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlrbnkGhK5x4-wScVY4_DlOel6yavwyNLwfg&s",
         "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
       ],
@@ -112,7 +112,7 @@
       "leadTime": 3,
       "description": "Handcrafted toran made with fresh marigold flowers and mango leaves. Traditional design perfect for festival entrances.",
       "images": [
-        "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+        "https://as2.ftcdn.net/jpg/09/60/18/03/1000_F_960180379_EpmLYtzFboEtsxwzaNJrDk4FCEm37JLs.jpg",
         "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
       ],
       "locationRadius": null,
@@ -135,7 +135,7 @@
       "leadTime": 2,
       "description": "Complete Diwali pooja kit with all essential items - diyas, incense, roli, rice, and decorated thali.",
       "images": [
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStpBeubDm0HOTvW6J8MwZdHAo7Ky9A22eIFQ&s",
         "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=600&fit=crop"
       ],
       "locationRadius": null,
@@ -156,7 +156,7 @@
       "leadTime": 5,
       "description": "Complete wedding entrance decoration including floral arrangements, torans, and rangoli. Transform your venue into a festive paradise.",
       "images": [
-        "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop",
+        "https://images.pexels.com/photos/32994460/pexels-photo-32994460.jpeg",
         "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop"
       ],
       "locationRadius": 25,
@@ -180,7 +180,7 @@
       "leadTime": 4,
       "description": "Personalized rangoli design with your name or message. Perfect for birthdays, anniversaries, and corporate events.",
       "images": [
-        "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800&h=600&fit=crop",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Aruppukottai_Kolam.jpg/1280px-Aruppukottai_Kolam.jpg?20080217154825",
         "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop"
       ],
       "locationRadius": 20,
@@ -203,7 +203,7 @@
       "leadTime": 4,
       "description": "Elegant peacock feather toran with beaded accents. Adds a royal touch to any entrance.",
       "images": [
-        "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+        "https://live.staticflickr.com/8343/8154870125_636129104e_b.jpg",
         "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop"
       ],
       "locationRadius": null,
@@ -219,7 +219,7 @@
       "artistId": "art-001",
       "productId": "prod-001",
       "productTitle": "Traditional Diwali Rangoli Design",
-      "productImage": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlrbnkGhK5x4-wScVY4_DlOel6yavwyNLwfg&s",
       "serviceType": "home-visit",
       "scheduledDate": "2024-11-10",
       "scheduledTime": "10:00 AM",
@@ -238,7 +238,7 @@
       "artistId": "art-001",
       "productId": "prod-002",
       "productTitle": "Handmade Marigold Toran",
-      "productImage": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800&h=600&fit=crop",
+      "productImage": "https://as2.ftcdn.net/jpg/09/60/18/03/1000_F_960180379_EpmLYtzFboEtsxwzaNJrDk4FCEm37JLs.jpg",
       "serviceType": "digital",
       "scheduledDate": null,
       "scheduledTime": null,
