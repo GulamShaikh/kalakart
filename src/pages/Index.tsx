@@ -119,27 +119,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-
-      {/* Demo Credentials Banner */}
-      <section className="py-4">
-        <div className="container px-4">
-          <div className="bg-accent/10 border border-accent/30 rounded-xl p-4">
-            <h3 className="font-display font-semibold text-sm text-accent-foreground mb-2">🎭 Demo Accounts</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-              <div className="bg-card rounded-lg p-3">
-                <p className="font-medium mb-1">Customer Login</p>
-                <p className="font-mono text-muted-foreground">customer@kalaghar.demo</p>
-                <p className="font-mono text-muted-foreground">Demo1234!</p>
-              </div>
-              <div className="bg-card rounded-lg p-3">
-                <p className="font-medium mb-1">Artist Login</p>
-                <p className="font-mono text-muted-foreground">artist@kalaghar.demo</p>
-                <p className="font-mono text-muted-foreground">Artist1234!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 }

@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { Header } from './Header';
 import { BottomNav } from './BottomNav';
+import { Footer } from './Footer';
 
 interface LayoutProps {
   children: ReactNode;
@@ -9,11 +10,12 @@ interface LayoutProps {
 
 export function Layout({ children, hideNav }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-background pattern-rangoli">
+    <div className="min-h-screen bg-background pattern-rangoli flex flex-col">
       <Header />
-      <main className="pb-safe md:pb-0">
+      <main className="flex-1 pb-safe md:pb-0">
         {children}
       </main>
+      <Footer />
       {!hideNav && <BottomNav />}
     </div>
   );
