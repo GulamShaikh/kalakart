@@ -41,7 +41,7 @@ export default function Index() {
                   size="lg"
                   className="w-full sm:w-auto"
                 >
-                  Become an Artist
+                  List your products
                 </Button>
               </Link>
             </div>
